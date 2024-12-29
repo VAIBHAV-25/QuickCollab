@@ -157,6 +157,7 @@ nextApp.prepare().then(async () => {
 
 	server.listen(port, () => {
 		// eslint-disable-next-line no-console
-		console.log(`> Ready on http://localhost:${port}`);
+		// console.log(`> Ready on https://localhost:${port}`);
+		console.log(`> Ready on https://quick-collab.vercel.app/`);
 	});
 });

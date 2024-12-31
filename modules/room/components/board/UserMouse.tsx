@@ -62,7 +62,7 @@ const UserMouse = ({ userId }: { userId: string }) => {
     >
       <BsCursorFill className="-rotate-90" />
       {msg && (
-        <p className="absolute top-full left-5 max-h-20 max-w-[15rem] overflow-hidden text-ellipsis rounded-md bg-zinc-900 p-1 px-3 text-white">
+        <p className="absolute top-full left-5 max-h-20 max-w-[15rem] overflow-hidden text-ellipsis rounded-md bg-[#023047] p-1 px-3 text-white">
           {msg}
         </p>
       )}

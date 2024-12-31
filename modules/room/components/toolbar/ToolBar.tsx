@@ -69,7 +69,7 @@ const ToolBar = () => {
         <FiChevronRight />
       </motion.button>
       <motion.div
-        className="absolute left-10 top-[50%] z-50 grid grid-cols-2 items-center gap-5 rounded-lg bg-zinc-900 p-5 text-white 2xl:grid-cols-1"
+        className="absolute left-10 top-[50%] z-50 grid grid-cols-2 items-center gap-5 rounded-lg bg-[#023047] p-5 text-white 2xl:grid-cols-1"
         animate={{
           x: opened ? 0 : -160,
           y: "-50%",

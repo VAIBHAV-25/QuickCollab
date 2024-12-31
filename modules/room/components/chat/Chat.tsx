@@ -47,12 +47,12 @@ const Chat = () => {
 
   return (
     <motion.div
-      className="absolute bottom-0 z-50 flex h-[300px] w-full flex-col overflow-hidden rounded-t-md sm:left-36 sm:w-[30rem]"
+      className="absolute bottom-0 z-50 flex h-[300px] w-full flex-col overflow-hidden rounded-t-md sm:right-20 sm:w-[30rem]"
       animate={{ y: opened ? 0 : 260 }}
       transition={{ ease: DEFAULT_EASE, duration: 0.2 }}
     >
       <button
-        className="flex w-full cursor-pointer items-center justify-between bg-zinc-900 py-2 px-10 font-semibold text-white"
+        className="flex w-full cursor-pointer items-center justify-between bg-[#023047] py-2 px-10 font-semibold text-white"
         onClick={() => {
           setOpened((prev) => !prev);
           setNewMsg(false);

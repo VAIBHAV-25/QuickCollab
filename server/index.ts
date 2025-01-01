@@ -8,8 +8,7 @@ import { Server } from 'socket.io';
 import { v4 } from 'uuid';
 
 const port = parseInt(process.env.PORT || '3000', 10);
-// const dev = process.env.NODE_ENV !== 'production';
-const dev = true;
+const dev = process.env.NODE_ENV !== 'production';
 const nextApp = next({ dev });
 const nextHandler: NextApiHandler = nextApp.getRequestHandler();
 
